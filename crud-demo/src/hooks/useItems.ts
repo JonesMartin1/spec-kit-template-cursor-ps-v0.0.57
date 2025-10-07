@@ -179,9 +179,10 @@ export const useItems = () => {
       // Check for duplicates if name is being changed
       if (request.name && request.name.toLowerCase() !== currentItem.name.toLowerCase()) {
         const category = request.category || currentItem.category;
+        const newName = request.name.toLowerCase();
         const duplicateExists = items.some(
           item => item.id !== request.id && 
-                 item.name.toLowerCase() === request.name.toLowerCase() && 
+                 item.name.toLowerCase() === newName && 
                  item.category === category
         );
 
