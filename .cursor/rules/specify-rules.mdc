@@ -1,0 +1,25 @@
+﻿# spec-kit-template-cursor-ps-v0.0.57 Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-10-07
+
+## Active Technologies
+- TypeScript 5.x, JavaScript ES6+ + Next.js 14, React 18, Tailwind CSS 3.x, shadcn/ui, Framer Motion (001-estoy-construyendo-un)
+
+## Project Structure
+```
+backend/
+frontend/
+tests/
+```
+
+## Commands
+npm test; npm run lint
+
+## Code Style
+TypeScript 5.x, JavaScript ES6+: Follow standard conventions
+
+## Recent Changes
+- 001-estoy-construyendo-un: Added TypeScript 5.x, JavaScript ES6+ + Next.js 14, React 18, Tailwind CSS 3.x, shadcn/ui, Framer Motion
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
